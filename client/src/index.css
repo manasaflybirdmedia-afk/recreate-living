@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
 
 :root {
-  --primary: #0f172a;
-  --primary-light: #1e293b;
-  --accent: #d4af37; /* Gold */
-  --accent-hover: #fcd34d;
+  --primary: #0f172a;       /* Dark Blue Main */
+  --primary-light: #1e293b; /* Dark Blue Lighter */
+  --accent: #d4af37;        /* Gold Main */
+  --accent-hover: #f0c940;  /* Gold Lighter */
   --bg-color: #fafafa;
   --text-main: #334155;
   --text-muted: #64748b;

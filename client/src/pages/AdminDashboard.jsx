@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './AdminDashboard.css';
 
-const API = 'http://localhost:3001/api';
+const API = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 /* ─── Login Page ──────────────────────────────────────── */
 function LoginPage({ onLogin }) {
@@ -66,7 +66,6 @@ function LoginPage({ onLogin }) {
             {loading ? 'Signing in…' : 'Sign In →'}
           </button>
         </form>
-        <p className="login-hint">Default: admin@recreateliving.com / Admin@123</p>
       </div>
     </div>
   );
