@@ -1,0 +1,7 @@
+{
+  "eslint.enable": false,
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "css.validate.enable": false,
+  "json.validate.enable": false
+}
